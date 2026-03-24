@@ -9,12 +9,12 @@ with open('requirements.txt', 'r') as f:
 setup(
     name='csv-drag-drop-plotter',
     version='1.0.0',
-    author='Your Name',
-    author_email='you@example.com',
+    author='PyShine',
+    author_email='contact@pyshine.com',
     description='Drag‑and‑drop CSV plotting desktop application',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/csv-plotter',
+    url='https://github.com/pyshine-labs/csv_plotter',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     include_package_data=True,
@@ -37,10 +37,10 @@ setup(
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'csv-plotter=csv_plotter.src.main:main',
+            'csv-plotter=main:main',
         ],
         'gui_scripts': [
-            'csv-plotter-gui=csv_plotter.src.main:main',
+            'csv-plotter-gui=main:main',
         ],
     },
 )

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="https://pyshine.com">
     <img src="https://img.shields.io/badge/PyShine-Visit%20Website-blue?style=for-the-badge" alt="PyShine">
@@ -58,8 +59,8 @@ All dependencies are listed in [`requirements.txt`](requirements.txt).
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/csv-drag-drop-plotter.git
-cd csv-drag-drop-plotter
+git clone https://github.com/pyshine-labs/csv_plotter.git
+cd csv_plotter
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -78,24 +79,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Alternatively, install the package in development mode (optional):
-
-```bash
-pip install -e .
-```
-
 ## 🎯 Quick Start
 
-After installation, run the application with either of the following commands:
+After installation, run the application:
 
 ```bash
 python run.py
-```
-
-or
-
-```bash
-python -m csv_plotter.src.main
 ```
 
 The main window will appear. Drag a CSV file onto the drop area to begin.
@@ -283,3 +272,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md
 <p align="center">
   <b>Made with ❤️ by <a href="https://pyshine.com">PyShine</a></b>
 </p>
+=======
+# csv_plotter
+Drag and Drop CSV files to plot them instantly
+>>>>>>> 5ff2aba3e0cc54fbdfea3a70eb0d00b8c4981973
