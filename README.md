@@ -1,8 +1,15 @@
+<p align="center">
+  <a href="https://pyshine.com">
+    <img src="https://img.shields.io/badge/PyShine-Visit%20Website-blue?style=for-the-badge" alt="PyShine">
+  </a>
+</p>
+
 # CSV Drag‑and‑Drop Plotting Application
 
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![PyShine](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%20by-PyShine-red)
 
 A standalone desktop application built with PyQt5 that allows users to drag and drop CSV files, preview the data in a table, select columns, and generate interactive plots using matplotlib. The application follows a Model‑View‑Controller (MVC)‑like pattern to separate data handling, UI, and plotting logic.
 
@@ -266,6 +273,13 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md
 
 ## 🙏 Acknowledgments
 
+- **Developed by [PyShine](https://pyshine.com)** – Visit us for more Python tutorials and tools!
 - Built with [PyQt5](https://www.riverbankcomputing.com/software/pyqt/), [matplotlib](https://matplotlib.org/), and [pandas](https://pandas.pydata.org/).
 - Icons from [Material Design Icons](https://materialdesignicons.com/) (optional).
 - Inspired by the need for a simple, interactive CSV visualization tool for data scientists and analysts.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by <a href="https://pyshine.com">PyShine</a></b>
+</p>
